@@ -1,5 +1,5 @@
 a.
 Câu lệnh để cài đăt email: git config --global user.email "a@mail.com"
 Câu lệnh để cài đăt user: git config --global user.name "ANLE"
-b. Setup lại name
+b. Setup lại name: git config user.name "PW - ANLE"
 
