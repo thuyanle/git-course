@@ -1,0 +1,23 @@
+1.
+git commit --amend: vào chế độ interactive mode
+git commit --amend -m"message": thay đổi commit message cuối cùng
+git restore --staged<file>: đưa file từ staging area về working directory
+git reset HEAD~1: đưa commit cuối cùng từ Repository về working directory
+
+2.
+Tạo 3 files  >>> Tạo 3 file ở local
+git init >>> Khởi tạo thư mục được Git quản lý
+git commit -m"init project" >>> Commit lên Repository mà ko file nào được đẩy lên
+git add file1 >>>  Đẩy file1 lên staging area
+git commit -m "add file" >>> Commit file1 lên Repository 
+git add. >>> Đẩy file2,3 lên staging area
+git restore --staged file2 >>> File2 trở lại Working directory
+git commit -m"add all files" >>> Commit File1,3 lên Repository
+git reset HEAD~1 :File1,3 trở lại Working directory
+
+3. 
+a. Folder được quản lý bởi git
+b. file1.txt, file2.txt, folder con oops chứa file3.txt ở Working directory
+c. file1,toàn bộ file trong folder oops bị ignore
+d. file2 lên staging area
+e. file2 lên Repository 
