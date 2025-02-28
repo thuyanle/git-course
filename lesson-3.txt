@@ -13,7 +13,7 @@ git commit -m "add file" >>> Commit file1 lên Repository
 git add. >>> Đẩy file2,3 lên staging area
 git restore --staged file2 >>> File2 trở lại Working directory
 git commit -m"add all files" >>> Commit File1,3 lên Repository
-git reset HEAD~1 :File1,3 trở lại Working directory
+git reset HEAD~1 :File3 trở lại Working directory
 
 3. 
 a. Folder được quản lý bởi git
