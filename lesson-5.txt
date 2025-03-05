@@ -1,0 +1,35 @@
+1. Cấu trúc DOM cơ bản của một trang web bao gồm các thẻ:
+
+<!DOCTYPE html>
+    <html> 
+        <head> 
+            <title>text</title>
+        </head>
+        <body>
+            <h1>text</h1>
+            <a href = "URL">content</a>
+        </body>
+    </html>
+
+2. Cấu trúc của một table
+<table>
+    <thead>
+        <tr> 
+            <th>Tiêu đề cột 1</th> 
+            <th>Tiêu đề cột 2</th>
+            <th>Tiêu đề cột 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr> 
+            <td>Hàng 1, Dữ liệu ô 1</td> 
+            <td>Hàng 1, Dữ liệu ô 2</td>
+            <td>Hàng 1, Dữ liệu ô 3</td>
+        </tr>
+        <tr>
+            <td>Hàng 2, Dữ liệu ô 1</td> 
+            <td>Hàng 2, Dữ liệu ô 2</td>
+            <td>Hàng 2, Dữ liệu ô 3</td>
+        </tr>
+    </tbody>
+</table>
