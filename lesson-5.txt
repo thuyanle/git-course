@@ -13,6 +13,7 @@
 
 2. Cấu trúc của một table
 <table>
+    <caption> Tên bảng </caption>
     <thead>
         <tr> 
             <th>Tiêu đề cột 1</th> 
@@ -32,4 +33,9 @@
             <td>Hàng 2, Dữ liệu ô 3</td>
         </tr>
     </tbody>
+    <tfoot>
+        <tr>
+            <th> Dữ liệu tổng hợp </th>
+        </tr>
+    </foot>
 </table>
